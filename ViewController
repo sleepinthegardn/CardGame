@@ -1,7 +1,5 @@
 class ViewController: UIViewController {
-    
-    
-    
+     
     var touches = 0 {
         didSet {
             touchesLabel.text = "Touches: \(touches)"
@@ -29,9 +27,5 @@ class ViewController: UIViewController {
             flipButton(emoji: emojiCollection[buttonIndex], button: sender)
         }
     }
-    
-    
-
-
 }
 
